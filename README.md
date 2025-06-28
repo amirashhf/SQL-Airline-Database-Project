@@ -1,46 +1,31 @@
-# SQL-Airline-Database-Project
-A project to design and implement a relational database for an airline ticket reservation system using SQL, including schema design, ER diagram, and query implementation. 
+# ✈️ Airline Ticket Reservation Database
 
-
-# Airline Ticket Reservation Database
+![SQL](https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Database](https://img.shields.io/badge/Database-Design-blue)
+![Relational DB](https://img.shields.io/badge/Relational-DB-orange)
 
 ## 📖 Overview
-
-An efficient and well-structured ticket reservation system is critical to the success of any airline. This project addresses this need by designing and implementing a comprehensive relational database for a fictional airline, "Eagle Airlines." The database is built to handle all key aspects of the flight booking process, from managing flight and aircraft details to processing passenger bookings and ticket information, ensuring data accuracy and integrity. 
-
+An efficient and well-structured ticket reservation system is critical to the success of any airline. This project addresses this need by designing and implementing a comprehensive relational database for a fictional airline, "Eagle Airlines." The database is built to handle all key aspects of the flight booking process, from managing flight and aircraft details to processing passenger bookings and ticket information, ensuring data accuracy and integrity.
 
 ## ✨ Key Features
-
-**- Normalized Schema:** The database is designed with normalized tables (First Normal Form) to ensure data atomicity and reduce redundancy. 
-
-**- Relational Integrity:** Utilizes Primary Keys (PK) and Foreign Keys (FK) to maintain strong relationships and data consistency between tables. 
-
-**- Comprehensive Design:** The schema covers 7 core entities essential to airline operations: Aircraft, Flights, Seats, Airports, Tickets, Passengers, and Bookings. 
-
-
+* **Normalized Schema:** The database is designed with normalized tables (First Normal Form) to ensure data atomicity and reduce redundancy.
+* **Relational Integrity:** Utilizes Primary Keys (PK) and Foreign Keys (FK) to maintain strong relationships and data consistency between tables.
+* **Comprehensive Design:** The schema covers 7 core entities essential to airline operations: Aircraft, Flights, Seats, Airports, Tickets, Passengers, and Bookings.
 
 ## 🏛️ Database Schema
+The database consists of 7 primary tables designed to manage the airline's operations efficiently.
 
-The database consists of 7 primary tables designed to manage the airline's operations efficiently. 
-
-**1. Aircraft (Pesawat):** Stores details about each aircraft, including model and flight range. 
-
-**2. Flights (Penerbangan):** Contains information for each flight, such as departure/arrival schedules, airports, and flight status. 
-
-**3. Seats (Kursi_Pesawat):** Manages seat details for each aircraft, including seat number and class. 
-
-**4. Airports (Bandara):** Holds information about all airports, including name, city, and coordinates. 
-
-**5. Tickets (Tiket_Penerbangan):** Links a passenger to a specific flight and seat, and includes the ticket price. 
-
-**6. Passengers (Penumpang):** Stores personal data for passengers who make bookings. 
-
-**7. Bookings (Pemesanan):** Records booking details, including booking date and total price. 
-
+1.  **Aircraft (`Pesawat`):** Stores details about each aircraft, including model and flight range.
+2.  **Flights (`Penerbangan`):** Contains information for each flight, such as departure/arrival schedules, airports, and flight status.
+3.  **Seats (`Kursi_Pesawat`):** Manages seat details for each aircraft, including seat number and class.
+4.  **Airports (`Bandara`):** Holds information about all airports, including name, city, and coordinates.
+5.  **Tickets (`Tiket_Penerbangan`):** Links a passenger to a specific flight and seat, and includes the ticket price.
+6.  **Passengers (`Penumpang`):** Stores personal data for passengers who make bookings.
+7.  **Bookings (`Pemesanan`):** Records booking details, including booking date and total price.
 
 ## 🗺️ Entity-Relationship (ER) Diagram
-
 The following ER Diagram illustrates the relationships between all entities in the database.
+
 ![image](https://github.com/user-attachments/assets/4ba1b0db-0869-4f31-a89d-9e4c97cf9742)
 
 
